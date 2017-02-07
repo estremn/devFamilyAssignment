@@ -6,17 +6,15 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace elloXamarin
+namespace FamilyAssignment
 {
-    public class elloXamarin : ContentPage
+    public class FamilyStuffPage : ContentPage
     {
-        public elloXamarin()
+        public FamilyStuffPage()
         {
             Content = new StackLayout
             {
-                Children = {
-                    new Label { Text = "Ello Xamarin" }
-                }
+                
             };
         }
     }
